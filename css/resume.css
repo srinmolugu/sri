@@ -1,15 +1,3 @@
-@media screen and (orientation: landscape) {
-	.app {
-		width: 30%;
-		float: right;
-	}
-}
-
-@media screen and (orientation: portrait) {
-	.app {
-		clear: both;
-	}
-}
 .header
 {
 	height:200px;
