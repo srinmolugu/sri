@@ -11,13 +11,13 @@
 	background-size: cover;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100px;
-	width: 100px;
+	height: 100em;
+	width: 100em;
 	position: relative;
-	top: -50px;
-	margin-bottom: -50px;
+	top: -50em;
+	margin-bottom: -50em;
 	border: 2px solid white;
-	border-radius: 50px;
+	border-radius: 50em;
 	-webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.35);
 	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.35);
 	cursor: pointer;
@@ -28,8 +28,8 @@
 }
 .picdown{
 	position: relative;
-	margin-left: 99px;
-	margin-top:48px;
+	margin-left: 99em;
+	margin-top:48em;
 }
 .pic-content{
 	display: none;
@@ -37,16 +37,16 @@
 	background-position: center;
 	background-attachment: fixed;
 	background-image: url('http://2.bp.blogspot.com/-96dUp0NAYkY/Ujg2b7TpvWI/AAAAAAAABTA/3W0QZbMlM8c/s1600/photoshop-new-image-brick-wall-background-free.jpeg');
-	min-height: 12px;
-	min-width: 150px;
-	border-radius: -6px 50px 50px -30px;
+	min-height: 12em;
+	min-width: 150em;
+	border-radius: -6em 50em 50em -30em;
 	border-style: dotted;
 	border-left-style: none;
 	border-color: white;
 }
 .pic-content a {
 	color: black;
-	padding: 0px 4px;
+	padding: 0em 4em;
 	text-decoration: none;
 	display: inline-flex;
 }
@@ -60,15 +60,15 @@
 #head{
 	background-color: #000000;
 	text-align: center;
-	word-spacing: 50px;
+	word-spacing: 50em;
 }
 .button
 {
 	background-color: #000000;
 	color: #FFFFFF;
-	padding: 4px;
-	width: 200px;
-	height: 40px;
+	padding: 4em;
+	width: 200em;
+	height: 40em;
 	border: none;
 }
 .button:hover
@@ -80,7 +80,7 @@
 }
 span.hr{
 	background-color: white;
-	padding:0 10px;
+	padding:0 10em;
 	color:#999;
 }
 h2.hr{
@@ -88,8 +88,8 @@ h2.hr{
 	text-align: center;
 	border-bottom: 1px solid #AAA;
 	line-height: 0;
-	margin:60px 0 30px;
-	font-size: 16px;
+	margin:60em 0 30em;
+	font-size: 16em;
 	font-family: sans-serif;
 	cursor: default;
 	-webkit-touch-callout: none;
@@ -97,15 +97,15 @@ h2.hr{
 .top{
 	background-color: black;
 	color: white;
-	padding: 10px;
-	width: 200px;
+	padding: 10em;
+	width: 200em;
 	float: center;
 	text-align: center;
 }
 .top:hover{
 	background-color: white;
 	color:black;
-	padding: 10px;
+	padding: 10em;
 
 }
 .top:active{
