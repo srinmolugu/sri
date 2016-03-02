@@ -13,7 +13,10 @@
 }
 #head{
 	background-color: black;
-	margin-top: 80px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align:center;
 	word-spacing: 200px;
 }
