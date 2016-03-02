@@ -1,3 +1,46 @@
+@media only screen and (min-width: 240px) and (max-width: 768px) {
+	.nav {
+		width:100%;
+	}
+	.nav-item {
+		width:100%;
+		float:left;
+	}
+	#head{
+		margin-left: -40px;
+		text-align: center;
+	}
+}
+#head{
+	background-color: black;
+	margin-top: 80px;
+	text-align:center;
+	word-spacing: 200px;
+}
+.nav {
+	font-size:18px;
+	font-weight: 900;
+	font-family: century gothic;
+}
+.nav-list {
+}
+.nav-item {
+	display: inline;
+	zoom:1;
+	background-color: black;
+	color: white;
+}
+.nav-item a {
+	display:inline-block;
+	color:#FFF;
+	text-decoration: none;
+	padding: 10px;
+}
+.nav-item a:hover {
+	background:#FFF;
+	color: #000;
+	transition: 0.8s;
+}
 .header
 {
 	height:200px;
@@ -19,7 +62,7 @@
 	border: 2px solid white;
 	border-radius: 50px;
 	-webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.35);
-	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.35);
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.35);
 	cursor: pointer;
 }
 .pic:hover{
@@ -46,7 +89,7 @@
 }
 .pic-content a {
 	color: black;
-	padding: 0px 4px;
+	padding: 0 4px;
 	text-decoration: none;
 	display: inline-flex;
 }
@@ -56,27 +99,6 @@
 }
 .pic-content a:hover{
 	background-color:white;
-}
-#head{
-	background-color: #000000;
-	text-align: center;
-	word-spacing: 50px;
-}
-.button
-{
-	background-color: #000000;
-	color: #FFFFFF;
-	padding: 4px;
-	width: 200px;
-	height: 40px;
-	border: none;
-}
-.button:hover
-{
-	background-color: #FFFFFF;
-	color: #000000;
-	transition: 1s;
-	cursor: pointer;
 }
 span.hr{
 	background-color: white;
@@ -106,7 +128,6 @@ h2.hr{
 	background-color: white;
 	color:black;
 	padding: 10px;
-
 }
 .top:active{
 	background-color: white;
